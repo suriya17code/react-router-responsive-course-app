@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-router-responsive-course-app/static/css/main.567f574b.css",
+    "main.js": "/react-router-responsive-course-app/static/js/main.e38f2b82.js",
+    "index.html": "/react-router-responsive-course-app/index.html",
+    "main.567f574b.css.map": "/react-router-responsive-course-app/static/css/main.567f574b.css.map",
+    "main.e38f2b82.js.map": "/react-router-responsive-course-app/static/js/main.e38f2b82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.567f574b.css",
+    "static/js/main.e38f2b82.js"
+  ]
+}
