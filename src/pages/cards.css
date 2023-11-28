@@ -1,0 +1,26 @@
+.card{
+    border-radius: 2px;
+}
+.card:hover{
+    height: 473px;
+    width: 305px;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 136, 255), 0 0 5px rgb(78, 78, 84);
+    transition: all 0.2 ease-out;
+}
+.card-title{
+    text-align: center;
+    text-decoration: none;
+}
+.card-link{
+    text-decoration: none;
+}
+.nav-link{
+    margin-left: 15px;
+}
+.card-footer{
+    margin-bottom: auto;
+
+}
+.card-text {
+    text-align: justify;
+}

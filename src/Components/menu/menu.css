@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.hero{
+   
+ /* background: linear-gradient(180deg, #060840 0%, #152a71 50%, #2c14ab 100%); */
+background-image: url(https://1.bp.blogspot.com/-wGCHlGai5As/YDy367vYSCI/AAAAAAAAAxk/7cGJE6ix0pwue8y-eIuJ2VEEbn3EcFRFgCLcBGAsYHQ/s16000/Template%2Bfor%2BBlogger%2BImage%2B%252811%2529.jpg);
+
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    
+}
+.hero-left{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.auto-h1 {
+    color: rgb(27, 96, 192);
+    font-size: 43px;
+    font-weight: 400;
+    
+}
+.auto-p p{
+    font-size: 95px;
+    color: white;
+    font-weight: 900;
+ 
+}
+.hand-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hand-hand-icon img{
+    width: 105px;
+}
+.home-lastest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 35px;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: #1a3cab;
+    color: white;
+    cursor: pointer;
+
+}
+.color{
+    color: rgb(204, 63, 174);
+}
+@media screen and (max-width:580px){
+    .hero{
+        display: flex;
+        background-size: cover;
+    }
+    .hero-left{
+ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.1;
+    }
+
+    .auto-h1 {
+        color: rgb(27, 96, 192);
+        font-size: 23px;
+        font-weight: 400;
+        
+    }
+    .auto-p p{
+        font-size: 65px;
+        color: white;
+        font-weight: 500;
+     
+    }
+    .hand-hand-icon{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .hand-hand-icon img{
+        width: 105px;
+    }
+    .home-lastest-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 310px;
+        height: 70px;
+        border-radius: 75px;
+        margin-top: 35px;
+        font-size: 23px;
+        font-weight: 500;
+        background-color: #1a3cab;
+        color: white;
+        cursor: pointer;
+    
+    }
+    .color{
+        color: rgb(204, 63, 174);
+    }
+}

@@ -1,0 +1,48 @@
+.containers{
+    background-color: rgb(52, 50, 57);
+    width: 100%;
+    height: 100%;
+}
+.service-h1{
+color: yellow;
+font-size: 52px;
+font-weight: 500;
+font-family: sans-serif;
+margin-left: 80px;
+padding-top: 10px;
+}
+.service-p{
+    color: white;
+    font-family: sans-serif;
+margin-left: 80px;
+font-size: 20px;
+}
+.cards{
+    background-color: #ffffff1a;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.4 ease;
+}
+.cards:hover{
+   background-color: rgb(14, 13, 13);
+   color: white;
+}
+.card-links{
+    color: yellow;
+    text-decoration: none;
+}
+.card-titles{
+    text-align: left;
+
+}
+.card-texts {
+    padding: 12px;
+   
+    
+}
+.row{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}

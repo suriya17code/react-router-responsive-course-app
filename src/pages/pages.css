@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+ background-repeat: no-repeat;
+background-position: 100%;
+ background-size:cover;
+ display: flex;
+ background-image: url(https://thumbs.dreamstime.com/b/new-beautiful-blue-glowing-shapes-spots-abstract-background-concept-modern-wallpaper-design-222692829.jpg);
+}
+
+.one{
+    background-color: rgb(12, 90, 167);
+  padding: 140px 20px;
+
+ 
+
+}
+.two{
+    background-color: rgb(65, 73, 81);
+    padding: 40px 20px;
+
+}
+.h1text{
+text-align: center;
+color: rgb(192, 200, 206);
+padding-bottom: 25px;
+
+}
+.form-control input{
+    padding: 10px 5px;
+    background-color: #007FFF;
+}
+.row div{
+    justify-content: center;
+
+}
+
+.btn {
+   
+    justify-content: center;
+}
+.left{
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.second{
+    margin-top: 50px;
+}
+.third{
+    margin-top: 60px;
+}
+ @media screen and (max-width:782px) {
+  
+.o{
+    display: none;
+}
+.oo{
+    display: flex;
+   margin-left: -20px;
+   margin-right: -40px;
+   padding-left: 30px 40px;
+}
+.two div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row div{
+    padding: 10px;   
+    
+}
+.form-label label{
+    display: flex;
+}
+}
+.sign{
+    font-size: 55px;
+    font-style:italic;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 15px;
+    color: #007FFF;
+
+}
+
+
+
+
+
+/*about page css*/
+
+
+
+
+
+.p-1{
+    background-color: #004687;
+    padding: 50px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(255, 253, 253);
+}
+.p-2{
+    background-color: #0071c5;
+
+}
+.about-image{
+    width: 520px;
+    height: 380px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 780px){
+    .about-image{
+        width: 100%;
+        height: auto;
+      };
+    }
+
+    .message{
+        display: inline-block;
+        padding-left: 30px;
+        padding-top: 10px;
+        color: rgb(32, 30, 30);
+        
+    }
+    .icons{
+        font-size: 30px;
+        text-decoration: none;
+    padding: 10px 15px;
+
+        
+    }
+    .facebook,.instagram,.cloud,.linkedin,.fb,.youtube{
+       margin-left: 20px;
+    }
+    .facebook{
+        color: #04488c;
+    }
+    .instagram{
+        color: rgb(255, 85, 0);
+    }
+ .youtube{
+    color: rgb(196, 24, 24);
+ }
+ .linkedin{
+    color: #00BFFF;
+ }
+ .fb{
+    color: #0f54a8;
+ }
+.p-3{
+    background-color: #004687;
+    padding: 40px;
+    text-align: center;
+}
+.span{
+    color: rgb(203, 216, 227);
+}
+.spann{
+    color: rgb(29, 240, 29);
+}
+.photo{
+    background-size: cover;
+    background-color: #0071c5;
+}
