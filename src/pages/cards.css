@@ -1,10 +1,8 @@
 .card{
     border-radius: 2px;
 }
-.card:hover{
-    height: 473px;
-    width: 305px;
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 136, 255), 0 0 5px rgb(78, 78, 84);
+.card:hover{ 
+    box-shadow: 0px 2px 4px 0px  rgb(40, 39, 39), 0 0 25px rgb(28, 61, 90), 0 0 5px rgb(78, 78, 84);
     transition: all 0.2 ease-out;
 }
 .card-title{
@@ -23,4 +21,12 @@
 }
 .card-text {
     text-align: justify;
+}
+@media screen and(max-width:1501px) {
+    .card{
+        border-radius: 2px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
